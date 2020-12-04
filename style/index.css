@@ -1,1 +1,74 @@
-/* Add CSS styling here */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+header {  
+    margin: 20px 10px;  
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-container img {
+    width: 900px;
+    height: 400px;
+    margin: 20px 30px;
+}
+
+.topSec {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navbar {
+    display: flex;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    font-size: 15px;
+    padding: 10px;
+    border: solid 1px;
+    
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.first-mid {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.project {
+    padding: 10px;
+}
+
+.project h3{
+    text-align: center;
+    padding: 5px;
+}
+
+.second-mid {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+button {
+    font-size: 15px;
+    padding: 5px;
+}
+
+footer {
+    display: flex;
+    background-color: lightgray;
+    justify-content: center;
+    padding: 50px;
+
+}
